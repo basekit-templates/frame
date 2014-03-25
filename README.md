@@ -1,2 +1,4 @@
-frame
-=====
+FRAME
+=======
+
+Blog template
