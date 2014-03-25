@@ -64,20 +64,20 @@ html {
 
 body {
 	min-height: 100%;
-	background-color:@font-swatch3-font-family;
 }
 
 html, body {
-	height: 100%
+	height: 100%;
+	background-color:darken(@font-swatch2-color,50%); 
 }
 
 body {
-	background-color:@font-swatch3-font-family;
 }
 
 html, body {
 	font-family:@font-swatch5-font-family;
 	font-weight: @font-swatch5-font-weight;
+	background-color:@font-swatch2-font-family;
 	color:@font-swatch5-color;
 	line-height:@font-swatch5-line-height;
 	letter-spacing: @font-swatch5-letter-spacing;
@@ -276,6 +276,7 @@ hr.line {
 
 .widget.feature {
 	border-bottom: 10px solid;
+	border-color: @color-swatch2;
 }
 
 .widget.feature .feature-bgimg .content button.btn {
@@ -920,6 +921,7 @@ input[type="search"]::-webkit-search-decoration {
 		}
 	}
 	.widget.feature .feature-bgimg .content {
+		height:200px;
 		h2 {
 			font-size: bkscale(@font-swatch8-font-size, 0.5);
 			line-height: bkscale(@font-swatch8-line-height, 0.5);
