@@ -4,7 +4,7 @@
 	"screenshot":"frame.png",
 	"pageTypes": [
 		"default",
-		"bloglistposts",
+		"blogpostlist",
 		"blogpost",
 		"home",
 		"about",
